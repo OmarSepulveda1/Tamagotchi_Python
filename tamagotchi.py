@@ -22,6 +22,7 @@ class Tamagotchi:
         print(f"{self.nombre} ha comido. ¡Está más saludable!")
 
     def curar(self):
+      
         self.salud += 20
         self.felicidad -= 5
         print(f"{self.nombre} ha sido curado. Salud mejorada.")
